@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
+// Create a link to the /new route from the homepage
+
 const messages = [
   {
     text: "Hi there!",
